@@ -34,7 +34,7 @@ namespace BloodbankDAL
                 sqlCmdObj.CommandType = CommandType.StoredProcedure;
                 sqlCmdObj.Connection = sqlConObj;
                 //Input Parameter defintion
-                //sqlCmdObj.Parameters.AddWithValue("@DONAR_ID", newObj.DONAR_ID);
+                sqlCmdObj.Parameters.AddWithValue("@DONAR_ID", newObj.DONAR_ID);
                 sqlCmdObj.Parameters.AddWithValue("@FIRST_NAME", newObj.FIRST_NAME);
                 sqlCmdObj.Parameters.AddWithValue("@LAST_NAME", newObj.LAST_NAME);
                 sqlCmdObj.Parameters.AddWithValue("@EMAIL", newObj.EMAIL);
@@ -141,9 +141,7 @@ namespace BloodbankDAL
 
         }
 
-
-
-        public List<ReqBlood> FetchReqBloodGrp()
+        public List<AvlBloodGrpDTO> FetchReqBloodGrp()
         {
             try
             {
@@ -157,19 +155,21 @@ namespace BloodbankDAL
                 //Execute
                 sqlConObj.Open();//COnnection should be open not command
                 SqlDataReader sqlDataReaderObj = sqlCmdObj.ExecuteReader();
-                List<ReqBlood> lstDept = new List<ReqBlood>();
+                List<AvlBloodGrpDTO> lstDept = new List<AvlBloodGrpDTO>();
 
                 DonarDTO newepartObj = new DonarDTO();
 
                 while (sqlDataReaderObj.Read())
                 {
-                    
+                    //newepartObj.DeptName = sqlDataReaderObj[0].ToString();
+                    //newepartObj.DeptGroupName = sqlDataReaderObj[1].ToString();
+                    //lstDept.Add(newepartObj);
 
-                    lstDept.Add(new ReqBlood()
+                    lstDept.Add(new AvlBloodGrpDTO()
                     {
                         BLOODGRP = sqlDataReaderObj[0].ToString()
 
-                    });
+                    }) ;
 
                 }
                 return lstDept;
@@ -193,118 +193,5 @@ namespace BloodbankDAL
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*public List<DataTransfercs> Fetch()
-{
-    try
-    {
-        BloodContext contextObj = new BloodContext();
-
-        //LINQ
-        List<ClientMst> midResult = (from prod in contextObj.ClientMsts
-                                     select prod).ToList();
-        List<DataTransfercs> finalResult = new List<DataTransfercs>();
-
-        foreach (var client in midResult)
-        {
-            finalResult.Add(new DataTransfercs()
-            {
-                id = client.CU_Id,
-                firstName = client.CU_Name,
-                last_Name = client.CU_Surname,
-                mobile = (float)client.CU_Mobile_No,
-                address = client.CU_Address,
-                city = client.CU_City
-
-            });
-        }
-        return finalResult;
-
-
-    }
-    catch (Exception e)
-    {
-        throw ex;
-    }
-}
-
-public List<DataTransfercs> Fetch1()
-{
-    try
-    {
-        BloodContext contextObj = new BloodContext();
-        var midResult = contextObj.ClientMsts.ToList();
-
-        //LINQ
-        Console.WriteLine("Enter Blood group to find");
-        String a = Console.ReadLine();
-
-        var teenAgerStudent = (from prod in contextObj.ClientMsts
-                               where prod.CU_Name.Contains(a)
-                               select prod).ToList();
-
-        List<DataTransfercs> finalResult = new List<DataTransfercs>();
-
-        foreach (var client in teenAgerStudent)
-        {
-            finalResult.Add(new DataTransfercs()
-            {
-                id = client.CU_Id,
-                firstName = client.CU_Name,
-                last_Name = client.CU_Surname,
-                mobile = (float)client.CU_Mobile_No,
-                address = client.CU_Address,
-                city = client.CU_City
-            });
-        }
-        return finalResult;
-
-
-    }
-    catch (Exception e)
-    {
-        throw e;
-    }
-}*/
-
-
-
-
-
-
-
-
-
-
 
 

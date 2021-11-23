@@ -12,21 +12,3 @@ C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.c
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.exe
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.pdb
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.csproj.CopyComplete
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankBAL.exe.config
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankBAL.exe
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankBAL.pdb
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankDAL.exe
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankDTO.exe
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\EntityFramework.dll
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankDAL.pdb
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankDAL.exe.config
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankDTO.pdb
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\BloodbankDTO.exe.config
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\EntityFramework.xml
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\obj\Debug\BloodbankBAL.csproj.AssemblyReference.cache
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\obj\Debug\BloodbankBAL.csproj.CoreCompileInputs.cache
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\obj\Debug\BloodbankBAL.exe
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\obj\Debug\BloodbankBAL.pdb
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankBAL\obj\Debug\BloodbankBAL.csproj.CopyComplete

@@ -8,17 +8,4 @@ C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.c
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.CoreCompileInputs.cache
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.exe
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.pdb
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\BloodbankDAL.exe.config
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\BloodbankDAL.exe
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\BloodbankDAL.pdb
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\BloodbankDTO.exe
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\EntityFramework.dll
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\BloodbankDTO.pdb
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\BloodbankDTO.exe.config
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\EntityFramework.xml
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.AssemblyReference.cache
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.CoreCompileInputs.cache
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\obj\Debug\BloodbankDAL.exe
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodbankDAL\obj\Debug\BloodbankDAL.pdb
+C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.CopyComplete

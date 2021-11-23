@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace BloodbankDTO
 {
-    public class UserDTO
-    {
+    public class UserDTO    {
         public int USER_ID { get; set; }
         public string EMAIL { get; set; }
-        public string FULLNAME { get; set; }
-
+        public string  FULLNAME { get; set; }
+       
 
 
         public string CONTACT { get; set; }

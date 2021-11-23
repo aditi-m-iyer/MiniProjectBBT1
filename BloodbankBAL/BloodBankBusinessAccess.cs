@@ -1,6 +1,4 @@
 ﻿
-
-
 using BloodbankDAL;
 using BloodbankDTO;
 using System;
@@ -11,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace BloodbankBAL
 {
-    public class BloodBankBusinessAccess 
+    public class BloodBankBusinessAccess : IBloodbank
     {
-       
+
 
         public int AddDonars(DonarDTO newObj)
         {
@@ -29,7 +27,7 @@ namespace BloodbankBAL
             }
         }
 
-       
+
 
         public int Addusers(UserDTO newObj1)
         {
@@ -62,12 +60,12 @@ namespace BloodbankBAL
             }
         }
 
-        public List<ReqBlood> GetBloodDetails()
+        public List<AvlBloodGrpDTO> GetBloodDetails()
         {
             try
             {
                 BloodBankDataAccess dalObj = new BloodBankDataAccess();
-                List<ReqBlood> results = dalObj.FetchReqBloodGrp();
+                List<AvlBloodGrpDTO> results = dalObj.FetchReqBloodGrp();
                 return results;
             }
             catch (Exception ex)
@@ -77,7 +75,6 @@ namespace BloodbankBAL
             }
 
         }
-
 
     }
 }

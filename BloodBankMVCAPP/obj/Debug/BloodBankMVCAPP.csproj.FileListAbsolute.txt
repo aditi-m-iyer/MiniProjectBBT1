@@ -1,2 +1,0 @@
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodBankMVCAPP\obj\Debug\BloodBankMVCAPP.csproj.AssemblyReference.cache
-C:\Users\Aditi Iyer\Desktop\New folder\MiniProjectADONet-main\BloodBankMVCAPP\obj\Debug\BloodBankMVCAPP.csproj.CoreCompileInputs.cache
