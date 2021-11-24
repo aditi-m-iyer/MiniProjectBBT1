@@ -43,6 +43,7 @@ namespace BloodBankMVCAPP.Models
         [RegularExpression("^[a-zA-Z]*$", ErrorMessage = "Address can hold only Alphabet")]
 
         public string ADDRESS { get; set; }
+
         [Required(ErrorMessage = "You cannot leave age empty"), MaxLength(2)]
         [Display(Name = "Please enter age")]
         [RegularExpression("^[0-9]*$", ErrorMessage = "age can hold only Numbers")]

@@ -39,7 +39,7 @@ namespace BloodBankMVCAPP.Controllers
                     FIRST_NAME = donarobject.FIRST_NAME,
                     LAST_NAME = donarobject.LAST_NAME,
                     EMAIL = donarobject.EMAIL,
-                    CONTACT = donarobject.CONTACT,
+                    CONTACT = donarobject.CONTACT.ToString(),
                     GENDER = donarobject.GENDER,
                     BLOODGRP = donarobject.BLOODGRP,
                     ADDRESS = donarobject.ADDRESS,

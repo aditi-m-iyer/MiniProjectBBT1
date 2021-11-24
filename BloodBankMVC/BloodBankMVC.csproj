@@ -172,6 +172,10 @@
     <Content Include="Views\BloodBank\AddDonars.cshtml" />
     <Content Include="Views\Delete\Delete_Donar.cshtml" />
     <Content Include="Views\User\Users.cshtml" />
+    <Content Include="Views\Shared\Success1.cshtml" />
+    <Content Include="Views\Shared\Success2.cshtml" />
+    <Content Include="Views\Shared\Error1.cshtml" />
+    <Content Include="Views\Shared\Error2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
