@@ -127,7 +127,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AddDonar.cs" />
+    <Compile Include="Models\AddDonarModel.cs" />
+    <Compile Include="Models\GenderModel.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\DeleteDonarModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

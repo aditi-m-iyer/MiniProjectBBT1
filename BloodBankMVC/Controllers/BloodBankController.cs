@@ -1,8 +1,12 @@
-﻿using BloodbankBAL;
+﻿
+using BloodbankBAL;
 using BloodbankDTO;
 using BloodBankMVCAPP.Models;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -18,7 +22,8 @@ namespace BloodBankMVCAPP.Controllers
             blObj = new BloodBankBusinessAccess();
         }
         // GET: BloodBank
-        public ActionResult Index()
+
+               public ActionResult Index()
         {
             return View();
         }
@@ -29,7 +34,7 @@ namespace BloodBankMVCAPP.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddDonars(AddDonar donarobject)
+        public ActionResult AddDonars(AddDonarModel donarobject)
         {
             try
             {
@@ -46,7 +51,9 @@ namespace BloodBankMVCAPP.Controllers
                     AGE = donarobject.AGE
 
                 };
+                //ViewBag.GenderList = ToSelectList(String "Male", "Female", "Others");
                 int result = blObj.AddDonars(newDonarDTOObj);
+                
                 if (result == 0)
                 {
                     return View("Success");

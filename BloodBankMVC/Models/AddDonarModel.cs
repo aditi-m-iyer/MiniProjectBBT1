@@ -6,7 +6,7 @@ using System.Web;
 
 namespace BloodBankMVCAPP.Models
 {
-    public class AddDonar
+    public class AddDonarModel
     {
 
         [Required(ErrorMessage = "You cannot leave First Name empty"), MaxLength(50)]
@@ -28,14 +28,14 @@ namespace BloodBankMVCAPP.Models
         [Display(Name = "Please enter Existing Number")]
         [RegularExpression("^[0-9]*$", ErrorMessage = "Contact can hold only Numbers")]
         public string CONTACT { get; set; }
-        [Required(ErrorMessage = "You cannot leave Gender empty"), MaxLength(6)]
+        [Required(ErrorMessage = "You cannot leave Gender empty")]
         [Display(Name = "Please enter Gender")]
         [RegularExpression("^[a-zA-Z]*$", ErrorMessage = "Gender can hold only Male,Female,Others")]
         public string GENDER { get; set; }
 
         [Required(ErrorMessage = "You cannot BloodGroup empty"), MaxLength(6)]
         [Display(Name = "Please enter Blood Group")]
-        [RegularExpression("^[a-zA-Z]*$", ErrorMessage = "Gender can hold only A+,A-,B+,B-,O+,O-")]
+        
         public string BLOODGRP { get; set; }
 
         [Required(ErrorMessage = "You cannot leave Address empty"), MaxLength(50)]
@@ -44,9 +44,11 @@ namespace BloodBankMVCAPP.Models
 
         public string ADDRESS { get; set; }
 
-        [Required(ErrorMessage = "You cannot leave age empty"), MaxLength(2)]
+        [Required(ErrorMessage = "You cannot leave age empty")]
         [Display(Name = "Please enter age")]
         [RegularExpression("^[0-9]*$", ErrorMessage = "age can hold only Numbers")]
         public int AGE { get; set; }
+
+      
     }
 }

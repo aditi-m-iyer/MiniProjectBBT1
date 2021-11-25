@@ -1,0 +1,41 @@
+create proc usp_insertusers
+(
+
+@EMAIL VARCHAR(150), 
+@FULLNAME VARCHAR(50), 
+@CONTACT VARCHAR(50),
+@ADDRESS VARCHAR(250),
+@BLOODGRP VARCHAR(5)
+)
+
+   AS
+	begin try
+		
+			if @BLOODGRP in(select BLOODGRP FROM DONARS)
+			BEGIN 
+			IF LEN(@CONTACT)=10
+				BEGIN
+				insert into USERS(EMAIL,FULLNAME,  CONTACT,ADDRESS,BLOODGRP)
+				values ( @EMAIL,@FULLNAME, @CONTACT, @ADDRESS,@BLOODGRP)
+				END
+			
+			ELSE
+			BEGIN
+			RETURN -1
+			END
+			END
+			ELSE
+			BEGIN
+			RETURN -2
+			END
+	
+			
+	
+		END TRY
+
+			BEGIN CATCH
+			RETURN 99
+			END CATCH
+			
+			select * from Donars
+

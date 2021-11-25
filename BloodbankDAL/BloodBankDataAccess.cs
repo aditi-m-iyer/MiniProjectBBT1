@@ -34,7 +34,7 @@ namespace BloodbankDAL
                 sqlCmdObj.CommandType = CommandType.StoredProcedure;
                 sqlCmdObj.Connection = sqlConObj;
                 //Input Parameter defintion
-                sqlCmdObj.Parameters.AddWithValue("@DONAR_ID", newObj.DONAR_ID);
+             //   sqlCmdObj.Parameters.AddWithValue("@DONAR_ID", newObj.DONAR_ID);
                 sqlCmdObj.Parameters.AddWithValue("@FIRST_NAME", newObj.FIRST_NAME);
                 sqlCmdObj.Parameters.AddWithValue("@LAST_NAME", newObj.LAST_NAME);
                 sqlCmdObj.Parameters.AddWithValue("@EMAIL", newObj.EMAIL);
@@ -82,7 +82,7 @@ namespace BloodbankDAL
                 sqlCmdObj.CommandType = CommandType.StoredProcedure;
                 sqlCmdObj.Connection = sqlConObj;
                 //Input Parameter defintion
-                sqlCmdObj.Parameters.AddWithValue("@USER_ID", newObj1.USER_ID);
+                //sqlCmdObj.Parameters.AddWithValue("@USER_ID", newObj1.USER_ID);
                 sqlCmdObj.Parameters.AddWithValue("@EMAIL", newObj1.EMAIL);
                 sqlCmdObj.Parameters.AddWithValue("@FULLNAME", newObj1.FULLNAME);
                 sqlCmdObj.Parameters.AddWithValue("@CONTACT", newObj1.CONTACT);

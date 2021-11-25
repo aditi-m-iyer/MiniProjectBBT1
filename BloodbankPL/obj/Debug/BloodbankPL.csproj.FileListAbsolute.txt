@@ -14,3 +14,4 @@ C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankPL\bin\Debug\BloodbankDTO.pd
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankPL\bin\Debug\BloodbankDTO.exe.config
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankPL\bin\Debug\BloodbankDAL.pdb
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankPL\bin\Debug\BloodbankDAL.exe.config
+C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankPL\obj\Debug\BloodbankPL.csproj.CopyComplete
