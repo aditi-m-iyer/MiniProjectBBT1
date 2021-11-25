@@ -124,6 +124,7 @@
     <Compile Include="Controllers\BloodBankController.cs" />
     <Compile Include="Controllers\DeleteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UpdateDonarController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -131,6 +132,7 @@
     <Compile Include="Models\AddDonarModel.cs" />
     <Compile Include="Models\AdminLoginModel.cs" />
     <Compile Include="Models\GenderModel.cs" />
+    <Compile Include="Models\UpdateDonar.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\DeleteDonarModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -182,6 +184,9 @@
     <Content Include="Views\AdminLogin\AdminLogin.cshtml" />
     <Content Include="Views\Shared\Success3.cshtml" />
     <Content Include="Views\Shared\Error3.cshtml" />
+    <Content Include="Views\UpdateDonar\Update.cshtml" />
+    <Content Include="Views\Shared\UpdateDonarSuccess.cshtml" />
+    <Content Include="Views\Shared\UpdateDonarError.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

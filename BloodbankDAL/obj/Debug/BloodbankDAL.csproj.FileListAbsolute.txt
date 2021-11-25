@@ -8,4 +8,3 @@ C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.c
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.CoreCompileInputs.cache
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.exe
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.pdb
-C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.CopyComplete

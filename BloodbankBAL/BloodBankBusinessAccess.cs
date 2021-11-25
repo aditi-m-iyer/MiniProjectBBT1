@@ -80,6 +80,23 @@ namespace BloodbankBAL
             }
         }
 
+        public int UPDATE(DonarDTO newObj2)
+        {
+            try
+            {
+                BloodBankDataAccess dalObj2 = new BloodBankDataAccess();
+                int result2 = dalObj2.DonarUpdate(newObj2);
+                return result2;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+
+
+
         public List<AvlBloodGrpDTO> GetBloodDetails()
         {
             try

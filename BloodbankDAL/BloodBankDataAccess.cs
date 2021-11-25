@@ -56,6 +56,7 @@ namespace BloodbankDAL
             }
 
         }
+        //add donar
         public int insertbloodbankdoner(DonarDTO newObj)
         {
             try
@@ -173,6 +174,49 @@ namespace BloodbankDAL
 
 
         }
+        //Update Donar
+        public int DonarUpdate(DonarDTO UpdateObj)
+        {
+            try
+            {
+
+                sqlConObj.ConnectionString = ConfigurationManager.ConnectionStrings["BloodBank"].ConnectionString;
+
+                sqlCmdObj.CommandText = @"UpdateDonars";
+
+                sqlCmdObj.CommandType = CommandType.StoredProcedure;
+                sqlCmdObj.Connection = sqlConObj;
+                sqlCmdObj.Parameters.AddWithValue("@DONAR_ID", UpdateObj.DONAR_ID);
+                sqlCmdObj.Parameters.AddWithValue("@FIRST_NAME", UpdateObj.FIRST_NAME);
+                sqlCmdObj.Parameters.AddWithValue("@LAST_NAME", UpdateObj.LAST_NAME);
+                sqlCmdObj.Parameters.AddWithValue("@EMAIL", UpdateObj.EMAIL);
+                sqlCmdObj.Parameters.AddWithValue("@CONTACT", UpdateObj.CONTACT);
+                sqlCmdObj.Parameters.AddWithValue("@GENDER", UpdateObj.GENDER);
+                sqlCmdObj.Parameters.AddWithValue("@BLOODGRP", UpdateObj.BLOODGRP);
+                sqlCmdObj.Parameters.AddWithValue("@ADDRESS", UpdateObj.ADDRESS);
+                sqlCmdObj.Parameters.AddWithValue("@AGE", UpdateObj.AGE);
+
+
+                SqlParameter prmReturn = new SqlParameter();
+                prmReturn.Direction = ParameterDirection.ReturnValue;
+                prmReturn.SqlDbType = SqlDbType.Int;
+                sqlCmdObj.Parameters.Add(prmReturn);
+
+                sqlConObj.Open();
+
+                //non execute query
+                sqlCmdObj.ExecuteNonQuery();
+                return Convert.ToInt32(prmReturn.Value);
+
+            }
+            catch (Exception e)
+            {
+
+                throw e;
+
+            }
+        }
+
 
         public List<AvlBloodGrpDTO> FetchReqBloodGrp()
         {

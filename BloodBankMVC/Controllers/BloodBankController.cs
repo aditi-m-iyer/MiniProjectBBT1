@@ -51,10 +51,10 @@ namespace BloodBankMVCAPP.Controllers
                     AGE = donarobject.AGE
 
                 };
-                //ViewBag.GenderList = ToSelectList(String "Male", "Female", "Others");
+               
                 int result = blObj.AddDonars(newDonarDTOObj);
                 
-                if (result == 0)
+                if (result == 1)
                 {
                     return View("Success");
                 }
