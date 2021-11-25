@@ -22,7 +22,40 @@ namespace BloodbankDAL
 
         }
 
+        //login
+        public int CheckLogin(AdminDTO newObj)
+        {
+            try
+            {
+                sqlConObj.ConnectionString = ConfigurationManager.ConnectionStrings["BloodBank"].ConnectionString;
 
+                sqlCmdObj.CommandText = @"Loginprocedure";
+
+                sqlCmdObj.CommandType = CommandType.StoredProcedure;
+                sqlCmdObj.Connection = sqlConObj;
+
+
+                sqlCmdObj.Parameters.AddWithValue("@Name", newObj.Name);
+                sqlCmdObj.Parameters.AddWithValue("@Password", newObj.Password);
+
+                //Return
+                SqlParameter prmReturn = new SqlParameter();
+                prmReturn.Direction = ParameterDirection.ReturnValue;
+                prmReturn.SqlDbType = SqlDbType.Int;
+                sqlCmdObj.Parameters.Add(prmReturn);
+
+                sqlConObj.Open();
+
+                //non execute query
+                sqlCmdObj.ExecuteNonQuery();
+                return Convert.ToInt32(prmReturn.Value);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+
+        }
         public int insertbloodbankdoner(DonarDTO newObj)
         {
             try

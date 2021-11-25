@@ -120,6 +120,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminLoginController.cs" />
     <Compile Include="Controllers\BloodBankController.cs" />
     <Compile Include="Controllers\DeleteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -128,6 +129,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AddDonarModel.cs" />
+    <Compile Include="Models\AdminLoginModel.cs" />
     <Compile Include="Models\GenderModel.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\DeleteDonarModel.cs" />
@@ -177,6 +179,9 @@
     <Content Include="Views\Shared\Success2.cshtml" />
     <Content Include="Views\Shared\Error1.cshtml" />
     <Content Include="Views\Shared\Error2.cshtml" />
+    <Content Include="Views\AdminLogin\AdminLogin.cshtml" />
+    <Content Include="Views\Shared\Success3.cshtml" />
+    <Content Include="Views\Shared\Error3.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

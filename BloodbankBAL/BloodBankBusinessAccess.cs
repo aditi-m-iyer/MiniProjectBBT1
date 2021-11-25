@@ -12,6 +12,26 @@ namespace BloodbankBAL
     public class BloodBankBusinessAccess : IBloodbank
     {
 
+        public int Check(AdminDTO newObj)
+        {
+            try
+            {
+
+                BloodBankDataAccess dalObj = new BloodBankDataAccess();
+                int result = dalObj.CheckLogin(newObj);
+
+                return result;
+            }
+            catch (Exception e)
+            {
+                throw e;
+
+            }
+        }
+
+
+
+
 
         public int AddDonars(DonarDTO newObj)
         {
