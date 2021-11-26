@@ -28,9 +28,7 @@ namespace BloodBankMVCAPP.Models
         [Display(Name = "Please enter Existing Number")]
         [RegularExpression("^[0-9]*$", ErrorMessage = "Contact can hold only Numbers")]
         public string CONTACT { get; set; }
-        [Required(ErrorMessage = "You cannot leave Gender empty")]
-        [Display(Name = "Please enter Gender")]
-        [RegularExpression("^[a-zA-Z]*$", ErrorMessage = "Gender can hold only Male,Female,Others")]
+       
         public string GENDER { get; set; }
 
         [Required(ErrorMessage = "You cannot BloodGroup empty"), MaxLength(6)]

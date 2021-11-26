@@ -85,3 +85,7 @@ C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodBankMVC\obj\Debug\BloodBankMVC.c
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodBankMVC\obj\Debug\BloodBankMVC.csproj.CoreCompileInputs.cache
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodBankMVC\obj\Debug\BloodBankMVC.dll
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodBankMVC\obj\Debug\BloodBankMVC.pdb
+C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodBankMVC\bin\EntityFramework.dll
+C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodBankMVC\bin\EntityFramework.SqlServer.dll
+C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodBankMVC\bin\EntityFramework.xml
+C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodBankMVC\bin\EntityFramework.SqlServer.xml

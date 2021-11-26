@@ -1,0 +1,54 @@
+﻿@model IEnumerable<BloodBankMVC.Models.DONAR>
+
+<br />
+<br />
+@using (Html.BeginForm("Search", "Search", FormMethod.Get))
+{
+    @Html.TextBox("Search")
+    <input type="submit" value="Search" />
+}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>DONAR_ID</th>
+            <th>FIRST_NAME</th>
+            <th>LAST_NAME</th>
+            <th>EMAIL</th>
+            <th>CONTACT</th>
+            <th>GENDER</th>
+            <th>BLOODGRP</th>
+            <th>ADDRESS</th>
+            <th>AGE</th>
+        
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Count() == 0)
+        {
+            <tr>
+                <td colspan="3" style="color=red">
+                    No match
+                </td>
+            </tr>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+            <tr>
+            <td>@item.DONAR_ID</td>
+            <td>@item.FIRST_NAME</td>
+            <td>@item.LAST_NAME</td>
+            <td>@item.EMAIL</td>
+            <td>@item.CONTACT</td>
+            <td>@item.GENDER</td>
+            <td>@item.BLOODGRP</td>
+            <td>@item.ADDRESS</td>
+            <td>@item.AGE</td>
+            </tr>
+           
+        }
+    }
+        </tbody>
+    </table>
+

@@ -54,7 +54,7 @@ namespace BloodBankMVCAPP.Controllers
                
                 int result = blObj.AddDonars(newDonarDTOObj);
                 
-                if (result == 1)
+                if (result ==0)
                 {
                     return View("Success");
                 }

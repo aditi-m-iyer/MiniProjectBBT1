@@ -45,10 +45,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -124,6 +132,7 @@
     <Compile Include="Controllers\BloodBankController.cs" />
     <Compile Include="Controllers\DeleteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\UpdateDonarController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -131,7 +140,25 @@
     </Compile>
     <Compile Include="Models\AddDonarModel.cs" />
     <Compile Include="Models\AdminLoginModel.cs" />
+    <Compile Include="Models\DONAR.cs">
+      <DependentUpon>Search.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\GenderModel.cs" />
+    <Compile Include="Models\Search.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Search.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Search.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Search.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Search.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Search.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Models\UpdateDonar.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Models\DeleteDonarModel.cs" />
@@ -146,8 +173,25 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\Search.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Search.Context.cs</LastGenOutput>
+      <DependentUpon>Search.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\Search.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Search.edmx</DependentUpon>
+      <LastGenOutput>Search.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <EntityDeploy Include="Models\Search.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Search.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\Search.edmx.diagram">
+      <DependentUpon>Search.edmx</DependentUpon>
+    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -187,6 +231,7 @@
     <Content Include="Views\UpdateDonar\Update.cshtml" />
     <Content Include="Views\Shared\UpdateDonarSuccess.cshtml" />
     <Content Include="Views\Shared\UpdateDonarError.cshtml" />
+    <Content Include="Views\Search\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -213,6 +258,9 @@
       <Project>{89346504-5638-441D-AC72-19E500839FBD}</Project>
       <Name>BloodbankDTO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BloodBankModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DONARS">
+    <Key>
+      <PropertyRef Name="DONAR_ID" />
+    </Key>
+    <Property Name="DONAR_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="FIRST_NAME" Type="varchar" MaxLength="50" />
+    <Property Name="LAST_NAME" Type="varchar" MaxLength="50" />
+    <Property Name="EMAIL" Type="varchar" MaxLength="150" />
+    <Property Name="CONTACT" Type="varchar" MaxLength="50" />
+    <Property Name="GENDER" Type="varchar" MaxLength="10" />
+    <Property Name="BLOODGRP" Type="varchar" MaxLength="50" />
+    <Property Name="ADDRESS" Type="varchar" MaxLength="250" />
+    <Property Name="AGE" Type="int" />
+  </EntityType>
+  <EntityContainer Name="BloodBankModelStoreContainer">
+    <EntitySet Name="DONARS" EntityType="Self.DONARS" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
