@@ -46,17 +46,17 @@ namespace BloodBankMVC.Controllers
                 int result = blObj.Addusers(newUserDTOObj);
                 if (result == 0)
                 {
-                    return View("Success2");
+                    return View("UserSuccess");
                 }
                 else
                 {
-                    return View("Error2");
+                    return View("UserError");
                 }
             }
             catch (Exception ex)
             {
 
-                return View("Error2");
+                return View("userError");
             }
         }
     }

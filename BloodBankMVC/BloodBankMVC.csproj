@@ -169,6 +169,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Images\OIP.jfif" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -222,12 +223,12 @@
     <Content Include="Views\Delete\Delete_Donar.cshtml" />
     <Content Include="Views\User\Users.cshtml" />
     <Content Include="Views\Shared\Success1.cshtml" />
-    <Content Include="Views\Shared\Success2.cshtml" />
+    <Content Include="Views\Shared\UserSuccess.cshtml" />
     <Content Include="Views\Shared\Error1.cshtml" />
-    <Content Include="Views\Shared\Error2.cshtml" />
+    <Content Include="Views\Shared\UserError.cshtml" />
     <Content Include="Views\AdminLogin\AdminLogin.cshtml" />
-    <Content Include="Views\Shared\Success3.cshtml" />
-    <Content Include="Views\Shared\Error3.cshtml" />
+    <Content Include="Views\Shared\LoginSuccess.cshtml" />
+    <Content Include="Views\Shared\LoginError.cshtml" />
     <Content Include="Views\UpdateDonar\Update.cshtml" />
     <Content Include="Views\Shared\UpdateDonarSuccess.cshtml" />
     <Content Include="Views\Shared\UpdateDonarError.cshtml" />

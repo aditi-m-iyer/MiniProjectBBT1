@@ -35,17 +35,17 @@ namespace BloodBankMVC.Controllers
                 int result = blObj.Check(newObj);
                 if (result == 1)
                 {
-                    return View("Success3");
+                    return View("LoginSuccess");
                 }
                 else
                 {
-                    return View("Error3");
+                    return View("LoginError");
 
                 }
             }
             catch
             {
-                return View("Error3");
+                return View("LoginError");
             }
 
         }
