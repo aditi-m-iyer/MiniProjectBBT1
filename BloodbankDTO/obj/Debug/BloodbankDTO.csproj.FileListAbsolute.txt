@@ -5,3 +5,10 @@ C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDTO\obj\Debug\BloodbankDTO.c
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDTO\obj\Debug\BloodbankDTO.csproj.CoreCompileInputs.cache
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDTO\obj\Debug\BloodbankDTO.exe
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDTO\obj\Debug\BloodbankDTO.pdb
+E:\LTTS\ADO\bloodbank\BloodbankDTO\bin\Debug\BloodbankDTO.exe.config
+E:\LTTS\ADO\bloodbank\BloodbankDTO\bin\Debug\BloodbankDTO.exe
+E:\LTTS\ADO\bloodbank\BloodbankDTO\bin\Debug\BloodbankDTO.pdb
+E:\LTTS\ADO\bloodbank\BloodbankDTO\obj\Debug\BloodbankDTO.csproj.AssemblyReference.cache
+E:\LTTS\ADO\bloodbank\BloodbankDTO\obj\Debug\BloodbankDTO.csproj.CoreCompileInputs.cache
+E:\LTTS\ADO\bloodbank\BloodbankDTO\obj\Debug\BloodbankDTO.exe
+E:\LTTS\ADO\bloodbank\BloodbankDTO\obj\Debug\BloodbankDTO.pdb

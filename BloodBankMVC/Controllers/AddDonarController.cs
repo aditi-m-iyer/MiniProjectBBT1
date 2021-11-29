@@ -13,11 +13,11 @@ using System.Web.Mvc;
 
 namespace BloodBankMVCAPP.Controllers
 {
-    public class BloodBankController : Controller
+    public class AddDonarController : Controller
     {
 
         BloodBankBusinessAccess blObj;
-        public BloodBankController()
+        public AddDonarController()
         {
             blObj = new BloodBankBusinessAccess();
         }
@@ -56,17 +56,17 @@ namespace BloodBankMVCAPP.Controllers
                 
                 if (result ==0)
                 {
-                    return View("Success");
+                    return View("AdddonarSuccess");
                 }
                 else
                 {
-                    return View("Error");
+                    return View("AddDonarError");
                 }
             }
             catch (Exception ex)
             {
 
-                return View("Error");
+                return View("AddDonarError");
             }
         }
     }

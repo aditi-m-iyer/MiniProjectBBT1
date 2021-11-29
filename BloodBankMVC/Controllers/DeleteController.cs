@@ -42,17 +42,17 @@ namespace BloodBankMVC.Controllers
                 int result = blObj.DELETE(newDonarDTOObj);
                 if (result == 1)
                 {
-                    return View("Success1");
+                    return View("DeleteSuccess");
                 }
                 else
                 {
-                    return View("Error1");
+                    return View("DeleteError");
                 }
             }
             catch (Exception ex)
             {
 
-                return View("Error1");
+                return View("DeleteError");
             }
         }
     }

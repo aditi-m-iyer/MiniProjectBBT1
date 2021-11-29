@@ -12,3 +12,17 @@ C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.c
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.exe
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.pdb
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.csproj.CopyComplete
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankBAL.exe.config
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankBAL.exe
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankBAL.pdb
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankDAL.exe
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankDTO.exe
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankDAL.pdb
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankDAL.exe.config
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankDTO.pdb
+E:\LTTS\ADO\bloodbank\BloodbankBAL\bin\Debug\BloodbankDTO.exe.config
+E:\LTTS\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.csproj.AssemblyReference.cache
+E:\LTTS\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.csproj.CoreCompileInputs.cache
+E:\LTTS\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.csproj.CopyComplete
+E:\LTTS\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.exe
+E:\LTTS\ADO\bloodbank\BloodbankBAL\obj\Debug\BloodbankBAL.pdb

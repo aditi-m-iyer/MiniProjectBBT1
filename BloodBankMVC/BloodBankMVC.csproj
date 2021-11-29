@@ -129,7 +129,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminLoginController.cs" />
-    <Compile Include="Controllers\BloodBankController.cs" />
+    <Compile Include="Controllers\AddDonarController.cs" />
     <Compile Include="Controllers\DeleteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SearchController.cs" />
@@ -212,18 +212,18 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\AdddonarError.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\Success.cshtml" />
+    <Content Include="Views\Shared\AdddonarSuccess.cshtml" />
     <Content Include="Views\BloodBank\AddDonars.cshtml" />
     <Content Include="Views\Delete\Delete_Donar.cshtml" />
     <Content Include="Views\User\Users.cshtml" />
-    <Content Include="Views\Shared\Success1.cshtml" />
+    <Content Include="Views\Shared\DeleteSuccess.cshtml" />
     <Content Include="Views\Shared\UserSuccess.cshtml" />
-    <Content Include="Views\Shared\Error1.cshtml" />
+    <Content Include="Views\Shared\DeleteError.cshtml" />
     <Content Include="Views\Shared\UserError.cshtml" />
     <Content Include="Views\AdminLogin\AdminLogin.cshtml" />
     <Content Include="Views\Shared\LoginSuccess.cshtml" />

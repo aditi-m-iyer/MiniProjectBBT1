@@ -8,3 +8,14 @@ C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.c
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.CoreCompileInputs.cache
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.exe
 C:\Users\Ankita\Desktop\ltts\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.pdb
+E:\LTTS\ADO\bloodbank\BloodbankDAL\bin\Debug\BloodbankDAL.exe.config
+E:\LTTS\ADO\bloodbank\BloodbankDAL\bin\Debug\BloodbankDAL.exe
+E:\LTTS\ADO\bloodbank\BloodbankDAL\bin\Debug\BloodbankDAL.pdb
+E:\LTTS\ADO\bloodbank\BloodbankDAL\bin\Debug\BloodbankDTO.exe
+E:\LTTS\ADO\bloodbank\BloodbankDAL\bin\Debug\BloodbankDTO.pdb
+E:\LTTS\ADO\bloodbank\BloodbankDAL\bin\Debug\BloodbankDTO.exe.config
+E:\LTTS\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.AssemblyReference.cache
+E:\LTTS\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.CoreCompileInputs.cache
+E:\LTTS\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.csproj.CopyComplete
+E:\LTTS\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.exe
+E:\LTTS\ADO\bloodbank\BloodbankDAL\obj\Debug\BloodbankDAL.pdb
