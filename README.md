@@ -26,8 +26,8 @@ Sql Server Database</br>
 ADO.NET</br>
 ASPNET</br>
 ## Instructions to run code
-username:Admin
-password:Password
+username:Admin </br>
+password:Password </br>
 ## Folders Structure:
 Folder | Description |
 -------|------------|
@@ -43,7 +43,7 @@ packages|All required packages|
 
 ## Contributors list
 Name | Contribution
------|
+-----|-------------|
 Aalla sonika| Searching Donars
 Aditi Iyer| Insert/Update/Delete Donars
 Aishwarya Beelagi| Login
