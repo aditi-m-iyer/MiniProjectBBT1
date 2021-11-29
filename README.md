@@ -18,6 +18,9 @@ User</br>
 Sql Server Database</br>
 ADO.NET</br>
 ASPNET</br>
+## Instructions to run code
+username:Admin
+password:Password
 ## Folders Structure:
 Folder | Description |
 -------|------------|
